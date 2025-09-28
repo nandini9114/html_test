@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 15px;
+
+}
+img{
+width: 100%;
+height:auto;
+border-radius: 5px;
+cursor: pointer;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:50px;
+}
+.row{
+    display: flex;
+    gap: 15px;
+    
+}
+h1{
+    background-color: black;
+    color:beige;
+    font-size:150px;
+    padding: 10px 10px;
+    .asimovian-regular {
+  font-family: "Asimovian", sans-serif;
+  font-weight:bold;
+  font-style: normal;
+  
+}
+}
+.gallery{
+    display: flex;
+
+}
+.col{
+    display: flex;
+    flex-direction:column;
+    gap:15px;
+}
+button{
+    padding: 15px 50px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    border: none;
+}
+button:hover{
+    background-color: blanchedalmond;
+    cursor: pointer;
+}
+
+
+
+
+@media screen and (max-width: 550px) {
+    .row{
+        flex-direction: column;
+    }
+
+    
+}
+
